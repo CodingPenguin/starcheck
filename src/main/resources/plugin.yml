@@ -1,0 +1,10 @@
+name: StarCheck
+main: dantoc.StarCheck
+author: RetlocPeck, CodingPenguin
+version: 1.0
+description: Hypixel Bedwars StarCheck Plugin
+commands:
+  starcheck:
+    usage: /starcheck
+    aliases: sc
+    description: test
