@@ -8,6 +8,18 @@
     <artifactId>starcheck</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>Hypixel</id>
+            <url>https://repo.hypixel.net/repository/Hypixel/</url>
+        </repository>
+        <!-- This adds the Spigot Maven repository to the build -->
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -34,17 +46,16 @@
         <!-- https://github.com/HypixelDev/PublicAPI -->
         <dependency>
             <groupId>net.hypixel</groupId>
-            <artifactId>Java</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>HypixelAPI</artifactId>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <version>1.16.3-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-
-
-
     </dependencies>
+
+
 </project>
