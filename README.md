@@ -3,6 +3,7 @@ A Minecraft modification to be used in Hypixel Bedwars that displays a player's 
 
 ## Commands
 `/starcheck config` to configure settings.
+
 `/starcheck [player_name]` to view a specific player's Hypixel Bedwars star.
 
 ## Note
