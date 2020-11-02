@@ -10,7 +10,7 @@ public class StarCheck implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        GetPlayer.main();
+        GetPlayer.main(args);
 
         return true;
     }
