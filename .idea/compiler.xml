@@ -11,5 +11,8 @@
         <module name="project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="StarCheck" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
